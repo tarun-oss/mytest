@@ -1,0 +1,691 @@
+/* 1st page.....*/
+
+body {
+    zoom: 90%;
+}
+
+.container {
+    letter-spacing: 1px;
+}
+
+.address h1 {
+    font-size: 18px !important;
+    line-height: 27px;
+    font-weight: 600 !important;
+    margin: 0;
+}
+
+p {
+    /* font-size: 24px;*/
+    line-height: 32px;
+    text-align: justify;
+    color: black;
+}
+
+.address h1 p {
+    color: blue;
+}
+
+.main_container {
+    padding: 0 2%;
+}
+
+.ad-p p {
+    font-weight: 600;
+}
+
+.ad-p p span {
+    margin-left: 5px;
+}
+
+@media screen,
+print {
+    .main_container {}
+    @page {
+        margin: 0;
+    }
+    .main_container {
+        margin-top: 10px;
+    }
+}
+
+.footer p {
+    font-weight: 600;
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+/* 2nd page.....*/
+
+.logo img {
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+td,
+th {
+    padding: 0;
+    border: 1px solid #eee;
+    padding: 8px !important;
+}
+
+
+
+
+
+
+
+
+/* 3rd page........*/
+
+.our_para {
+    font-weight: 600 !important;
+    letter-spacing: 2px;
+}
+
+.our_para1 {
+    font-weight: 600 !important;
+    letter-spacing: 2px;
+    margin-left: 10%;
+}
+
+.hr {
+    color: black;
+}
+
+.mytable table th {
+    text-align: center;
+}
+
+.mytable table td {
+    text-align: center;
+}
+
+.psic_para {
+    margin-left: 40%;
+}
+
+.ocean_logo img {
+    float: right;
+    height: 100px;
+    width: 270px;
+}
+
+td.ad-td {
+    width: 50%;
+}
+
+tr.rowspan {
+    height: 60px;
+}
+
+p.ocean_para {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+}
+
+.ocean_p {
+    margin-top: 60px;
+}
+
+.ocean_p p {
+    font-size: 23px !important;
+    line-height: 43px !important;
+    font-weight: 400;
+    margin-left: 177px;
+}
+
+p.para123 {
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.fa {
+    color: rgb(57, 220, 77);
+}
+
+.address h1 {
+    font-size: 28px !important;
+    letter-spacing: 2px;
+    /* line-height: 8px; */
+    line-height: 35px !important;
+    font-weight: 600 !important;
+    margin: 0;
+    line-height: 27px;
+    font-family: bold !important;
+}
+
+tr.myname td {
+    width: 50%;
+}
+
+tr.myname th {
+    width: 50%;
+}
+
+.rh-p p {
+    float: left;
+    width: 100%;
+    /*  font-size: 24px;*/
+    line-height: 32px;
+}
+
+.rh-p p span {
+    float: right;
+    width: 75%;
+    display: inline-block;
+    text-align: left;
+}
+
+td.myform_para {
+    width: 47%;
+}
+
+.container {
+    padding: 2%;
+}
+
+.tr,
+td,
+th {
+    /*  font-size: 24px;*/
+    letter-spacing: 1px;
+}
+
+span.myspan {
+    height: 140px !important;
+    display: inline-block;
+    width: 100%;
+}
+
+span.ocean_span {
+    display: inline-block;
+    height: 140px;
+}
+
+span.nowar-lc_span {
+    display: inline-block;
+    height: 80px;
+}
+
+span.nowar_span {
+    display: inline-block;
+    height: 100px;
+}
+
+span.cover_span {
+    display: inline-block;
+    height: 140px;
+}
+
+span.certi_span {
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+}
+
+.container.contract {
+    padding: 1%;
+}
+
+.main_container.contract {
+    margin-top: 0px;
+    /*  padding: 2% 2%;*/
+}
+
+.contract p {
+    font-size: 14px;
+    `
+}
+
+.contract th {
+    font-size: 14px;
+}
+
+.contract td {
+    font-size: 14px;
+}
+
+
+.contract1 p {
+    font-size: 20px;
+}
+
+.contract1 th {
+    font-size: 22px;
+}
+
+.contract1 td {
+    font-size: 21px;
+}
+
+tr.contract .logo img {
+    max-width: 200px;
+    height: 70px;
+}
+
+.myformat {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+span.myprofoma {
+    display: inline-block;
+    height: 243px;
+}
+
+.documentclass li span {
+    width: 20%;
+    float: right;
+}
+
+.stampclass {
+    width: 120px;
+}
+
+.varwidth {
+    width: 73%!important;
+}
+
+.topmargin {
+    margin-top: 120px;
+}
+
+.noborder {
+    border: none!important;
+}
+
+@media print {
+    a,
+    input[type='button'] {
+        display: none!important;
+    }
+
+
+    table {
+        page-break-inside: auto;
+    }
+
+    body {
+        zoom: 70%;
+    }
+
+
+    th.myformat5 {
+        text-align: center;
+        font-size: 20px;
+        background-color: #eee;
+        border: 2px solid black;
+        border-left: 0px !important;
+    }
+
+    th.myformat1 {
+        text-align: center;
+        font-size: 20px;
+        background-color: #eee;
+        border: 2px solid black;
+        border-left: 0px !important;
+        border-right: 1px !important;
+        border-top: 0px !important;
+    }
+    th.myformat2 {
+        text-align: center;
+        font-size: 20px;
+        background-color: #eee;
+        border: 2px solid black;
+        border-left: 0px !important;
+    }
+    th.myformat3 {
+        text-align: center;
+        font-size: 20px;
+        background-color: #eee;
+        border: 2px solid black;
+        border-left: 0px !important;
+        border-right: 0px !important;
+    }
+    th.myformat4 {
+        text-align: center;
+        font-size: 20px;
+        background-color: #eee;
+        border: 2px solid black;
+        border-top: 0px !important;
+    }
+
+    th.myformat {
+        text-align: center;
+        font-size: 20px;
+        background-color: #eee;
+        border: 2px solid black;
+        border-left: 0px !important;
+        border-right: 0px !important;
+    }
+    table {
+        border-spacing: 0;
+        border: 3px solid black !important;
+        border-collapse: inherit !important;
+    }
+
+    th.myformat {
+        background-color: #eee !important;
+        -webkit-print-color-adjust: exact;
+    }
+    th.myformat1 {
+        background-color: #eee !important;
+        -webkit-print-color-adjust: exact;
+    }
+    th.myformat2 {
+        background-color: #eee !important;
+        -webkit-print-color-adjust: exact;
+    }
+    th.myformat3 {
+        background-color: #eee !important;
+        -webkit-print-color-adjust: exact;
+    }
+    th.myformat4 {
+        background-color: #eee !important;
+        -webkit-print-color-adjust: exact;
+    }
+    th.myformat5 {
+        background-color: #eee !important;
+        -webkit-print-color-adjust: exact;
+    }
+
+    .m-top {
+        border-top: 2px solid #000;
+    }
+}
+
+th.myformat1 {
+    text-align: center;
+    font-size: 20px;
+    background-color: #eee;
+    border: 2px solid black;
+    border-left: 0px !important;
+    border-right: 1px !important;
+    border-top: 0px !important;
+}
+
+th.myformat2 {
+    text-align: center;
+    font-size: 20px;
+    background-color: #eee;
+    border: 2px solid black;
+    border-left: 0px !important;
+}
+
+th.myformat3 {
+    text-align: center;
+    font-size: 20px;
+    background-color: #eee;
+    border: 2px solid black;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+th.myformat4 {
+    text-align: center;
+    font-size: 20px;
+    background-color: #eee;
+    border: 2px solid black;
+    border-top: 0px !important;
+}
+
+th.myformat5 {
+    text-align: center;
+    font-size: 20px;
+    background-color: #eee;
+    border: 2px solid black;
+    border-left: 0px !important;
+}
+
+
+th.myformat {
+    text-align: center;
+    font-size: 20px;
+    background-color: #eee;
+    border: 2px solid black;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+
+table {
+    border-spacing: 0;
+    border: 3px solid black !important;
+    border-collapse: inherit !important;
+}
+
+
+
+
+
+
+
+/*-- Aditya Css --*/
+.m-top span {
+    border-top: 2px solid transparent !important;
+    display: inline-block;
+    width: 100%;
+    padding: -8px;
+}
+
+@media print {
+    .ad-bg {
+        background: #eee !important;
+        -webkit-print-color-adjust: exact;
+    }
+    .one-left-print {
+    border-left: 2 solid #000 !important;
+    border-collapse: collapse !important;
+}
+}
+.ad-bg {
+    background: #eee !important;
+    -webkit-print-color-adjust: exact;
+}
+
+.ad-left {
+    border-left: 2px solid #000 !important;
+    border-collapse: collapse !important;
+}
+
+.ad-right {
+    border-right: 2px solid #000 !important;
+    border-collapse: collapse !important;
+}
+
+.ad-top {
+    border-top: 2px solid #000 !important;
+    border-collapse: collapse !important;
+}
+
+.ad-bottom {
+    border-bottom: 2px solid #000 !important;
+    border-collapse: collapse !important;
+}
+
+.ad-border {
+    border: 2px solid #000 !important;
+    border-collapse: collapse !important;
+}
+
+.ad-padd {
+    padding: 0 !important;
+}
+
+/**/
+.one-left {
+    border-left: 1px solid #000 !important;
+    border-collapse: collapse !important;
+}
+
+.one-right {
+    border-right: 1px solid #000 !important;
+    border-collapse: collapse !important;
+}
+
+.one-top {
+    border-top: 1px solid #000 !important;
+    border-collapse: collapse !important;
+}
+
+.one-bottom {
+    border-bottom: 1px solid #000 !important;
+    border-collapse: collapse !important;
+}
+
+.ad-border {
+    border: 1px solid #000 !important;
+    border-collapse: collapse !important;
+}
+.big-font{
+    font-size: 25px;
+    line-height: 35px;
+    display: inline-block;
+    border-bottom: 1px solid #000;
+}
+.ad-head{
+    height: 150px;
+}
+.ad-boxing p{
+    width: 100%;
+    float: left;
+}
+.ad-boxing p b{
+    width: 100%;
+    float: left;
+}
+.ad-boxing p b span{
+    width: 350px;
+    margin: -33px 100px 0;
+    display: block;
+}
+.ad-boxing ol{
+    display: inline-block;
+    width: 100%;
+    font-weight: 600;
+}
+.ad-boxing ol li{
+    margin-bottom: 10px;
+}
+.ad-boxing ol li span{
+    float: right;
+}
+.ad-p-l p{
+    line-height: 24px !important;
+}
+.ad-p-l space{
+    height: 15px;
+    display: inline-block;
+    width: 100%;
+}
+.contract .ya-table{
+    width: 100%;
+    margin: 20px 0;
+    border-color: transparent !important; 
+}
+.contract .ya-table td{
+border-color: transparent !important; 
+font-size: 14px;
+line-height: 24px;
+font-weight: bold;
+text-transform: uppercase;   
+}
+.contract .ya-table tr td:first-child{
+    width: 250px;
+}
+
+.ad-left-padd ol {
+    padding-left: 25px;
+}
+
+
+.textleft{
+    float: left;
+}
+
+.textright{
+ float:right;   
+}
+
+.backbtn{
+    margin-top:20px;
+    text-align: center;
+}
+.mysub p{
+    text-decoration: underline;
+}
+
+
+/*-- Aditya Css --*/
+.b-none-t {
+    border-top: 0 !important;
+}
+.b-none-b {
+    border-bottom: 0 !important;
+}
+.custome-text h1{
+    font-family: 'Roboto', sans-serif !important;
+}
+.custome-text h2{
+    text-align: center;
+    font-weight: 800;
+    font-family: 'PT Serif', serif;
+}
+.custome-text .space {
+    width: 100%;
+    height: 10px;
+    float: left;
+}
+.space-new {
+    width: 100%;
+    height: 10px;
+    float: left;
+}
+.custome-text p{
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 0;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+.ocean_ad p{
+    margin-left: 0;
+    float: left;
+    width: 100%;
+}
+.ocean_ad p c{
+    width: 20%;
+    float: left;
+    text-align: right;
+}
+.ocean_ad p d{
+    width: 5%;
+    float: left;
+    text-align: center;
+}
+.ocean_ad p span{
+    width: 75%;
+    float: right;
+    text-align: left;
+}
+.boring{
+    border: 1px solid #000 !important;
+}
+.boring tr td{
+    border: 1px solid #000;
+    text-align: center;
+    text-transform: uppercase;
+}
+.boring tr th{
+    border: 1px solid #000;
+    text-align: center;
+    text-transform: uppercase;
+}
